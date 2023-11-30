@@ -1,0 +1,15 @@
+{
+	"zones":[
+      {"id":123,"name":"basestation123","x":-1,"y":-2,"radius":7},
+      { "id": 7, "name": "spb", "x" : 10, "y": 400, "radius": 2 },
+      { "id": 5, "name": "msk", "x" : 30, "y": 40, "radius": 0 }
+    ],
+    "log_level":"trace",
+      "redis":{
+      "ip":"123.123.123.123",
+      "port":8080},
+        "grpc":{
+        "local_ip":"122.122.122.122",
+        "local_port":1111}
+  
+}
